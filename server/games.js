@@ -66,10 +66,7 @@ const updateTile = (room, id, x, y, user, rotate) => {
     card.x = x;
     card.y = y;
     if (rotate) {
-      console.log('rotate?', rotate)
-      console.log('rotation before', card.rotation)
-      card.rotation = card.rotation ? (card.rotation + 1) % 4 : 1;
-      console.log('rotation after', card.rotation)
+      card.rotation = card.rotation ? (card.rotation + 1) % 8 : 1;
     }
     card.user = user;
     return card;
