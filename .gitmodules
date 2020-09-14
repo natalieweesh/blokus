@@ -1,7 +1,3 @@
-[submodule "blokus-client"]
-	path = blokus-client
-	url = https://github.com/natalieweesh/blokus-client
-
 [submodule "client"]
 	path = client
 	url = https://github.com/natalieweesh/blokus-client
